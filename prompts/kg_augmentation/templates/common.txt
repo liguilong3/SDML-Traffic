@@ -1,0 +1,1 @@
+Use only the supplied evidence and fixed output schema. Distinguish provided facts from semantic interpretations. Return supported values with evidence references and concise rationales. Abstain when evidence is insufficient. Do not use traffic states, occupancy histories, downstream results, or invented connections. Accepted judgments require human review before integration.

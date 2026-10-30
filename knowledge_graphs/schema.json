@@ -1,0 +1,223 @@
+{
+  "triple_format": "Headerless UTF-8 TSV: head, relation, tail",
+  "factual_information_categories": [
+    "Intrinsic attributes",
+    "Spatial context",
+    "Logical relationships"
+  ],
+  "display_labels": {
+    "Function:Residential": "Residential",
+    "Function:WorkStudy": "Employment and education",
+    "Function:IndustrialLogistics": "Industry and logistics",
+    "Function:CommercialService": "Commercial services",
+    "Function:MedicalHealth": "Healthcare",
+    "Function:CultureLeisure": "Culture and recreation",
+    "Function:Transport": "Transportation",
+    "Function:PublicService": "Public services",
+    "Function:VehicleSupport": "Vehicle services",
+    "Function:Accommodation": "Accommodation"
+  },
+  "scenes": {
+    "flow": {
+      "source_scene": "torino",
+      "target_type": "Detid",
+      "target_count": 64,
+      "levels": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "factual_relations": {
+        "Forward_rel": [
+          "Detid",
+          "Detid",
+          "logical relationship"
+        ],
+        "has_Road_lanes": [
+          "Detid",
+          "Road_Lanes",
+          "Has"
+        ],
+        "is_a_poi_type": [
+          "POI",
+          "OSM_POI_Type",
+          "auxiliary classification"
+        ],
+        "located_Road_category": [
+          "Detid",
+          "Road_Category",
+          "Has"
+        ],
+        "relate_POI": [
+          "Detid",
+          "POI",
+          "Nearby"
+        ]
+      },
+      "semantic_relations": {
+        "has_functional_category": {
+          "level": "L1",
+          "head_type": "POI",
+          "tail_type": "Function",
+          "allowed_values": [
+            "Function:Residential",
+            "Function:WorkStudy",
+            "Function:IndustrialLogistics",
+            "Function:CommercialService",
+            "Function:MedicalHealth",
+            "Function:CultureLeisure",
+            "Function:Transport",
+            "Function:PublicService",
+            "Function:VehicleSupport",
+            "Function:Accommodation"
+          ],
+          "max_values_per_head": 3,
+          "meaning": "Functional category inferred from the native POI type and assigned to that POI."
+        },
+        "located_in_functional_area": {
+          "level": "L2",
+          "head_type": "Detid",
+          "tail_type": "FunctionalAreaType",
+          "allowed_values": [
+            "FunctionalAreaType:Residential",
+            "FunctionalAreaType:WorkStudy",
+            "FunctionalAreaType:CommercialService",
+            "FunctionalAreaType:MedicalHealth",
+            "FunctionalAreaType:CultureLeisure",
+            "FunctionalAreaType:AdministrativePublicService",
+            "FunctionalAreaType:Tourism",
+            "FunctionalAreaType:IndustrialLogistics",
+            "FunctionalAreaType:Transport",
+            "FunctionalAreaType:MixedUse"
+          ],
+          "max_values_per_head": 3,
+          "meaning": "Inferred functional type of the surrounding area, supported by direct local evidence. No geographic area boundary is introduced."
+        },
+        "has_network_role": {
+          "level": "L3",
+          "head_type": "Detid",
+          "tail_type": "NetworkRole",
+          "allowed_values": [
+            "NetworkRole:BackboneCorridor",
+            "NetworkRole:TransitionConnector",
+            "NetworkRole:LocalDistributor"
+          ],
+          "max_values_per_head": 1,
+          "meaning": "Role within the supplied directed road-node KG, inferred jointly from paths, functions, road attributes, and target position."
+        }
+      }
+    },
+    "parking": {
+      "source_scene": "parking",
+      "target_type": "Parking",
+      "target_count": 92,
+      "levels": [
+        "L1",
+        "L2"
+      ],
+      "factual_relations": {
+        "has_billing_unit": [
+          "Tariff",
+          "Billing_Unit",
+          "auxiliary factual field"
+        ],
+        "has_charge_amount": [
+          "Tariff",
+          "Charge_Amount",
+          "auxiliary factual field"
+        ],
+        "has_nearby_poi": [
+          "Parking",
+          "POI",
+          "Nearby"
+        ],
+        "has_tariff": [
+          "Parking",
+          "Tariff",
+          "Has"
+        ],
+        "is_a_poi_type": [
+          "POI",
+          "OSM_POI_Type",
+          "auxiliary classification"
+        ],
+        "located_in_district": [
+          "Parking",
+          "District",
+          "Has"
+        ]
+      },
+      "semantic_relations": {
+        "has_functional_category": {
+          "level": "L1",
+          "head_type": "POI",
+          "tail_type": "Function",
+          "allowed_values": [
+            "Function:Residential",
+            "Function:WorkStudy",
+            "Function:IndustrialLogistics",
+            "Function:CommercialService",
+            "Function:MedicalHealth",
+            "Function:CultureLeisure",
+            "Function:Transport",
+            "Function:PublicService",
+            "Function:VehicleSupport",
+            "Function:Accommodation"
+          ],
+          "max_values_per_head": 3,
+          "meaning": "Functional category inferred from the native POI type and assigned to that POI."
+        },
+        "has_potential_user_group": {
+          "level": "L2",
+          "head_type": "Parking",
+          "tail_type": "UserGroup",
+          "allowed_values": [
+            "UserGroup:Visitors",
+            "UserGroup:WorkStudyUsers",
+            "UserGroup:Residents",
+            "UserGroup:MixedUsers"
+          ],
+          "max_values_per_head": 1,
+          "meaning": "A potential contextual prior, assessed independently from the other Parking L2 dimensions."
+        },
+        "has_use_orientation": {
+          "level": "L2",
+          "head_type": "Parking",
+          "tail_type": "ParkingUse",
+          "allowed_values": [
+            "ParkingUse:VisitOriented",
+            "ParkingUse:CommuteOriented",
+            "ParkingUse:StayOriented",
+            "ParkingUse:MixedUse"
+          ],
+          "max_values_per_head": 1,
+          "meaning": "A potential contextual prior, assessed independently from the other Parking L2 dimensions."
+        },
+        "has_time_of_day_orientation": {
+          "level": "L2",
+          "head_type": "Parking",
+          "tail_type": "ParkingPeriod",
+          "allowed_values": [
+            "ParkingPeriod:DaytimeOriented",
+            "ParkingPeriod:NighttimeOriented",
+            "ParkingPeriod:MixedPeriod"
+          ],
+          "max_values_per_head": 1,
+          "meaning": "A potential contextual prior, assessed independently from the other Parking L2 dimensions."
+        },
+        "has_turnover_tendency": {
+          "level": "L2",
+          "head_type": "Parking",
+          "tail_type": "TurnoverTendency",
+          "allowed_values": [
+            "TurnoverTendency:RelativelyFast",
+            "TurnoverTendency:RelativelySlow",
+            "TurnoverTendency:Mixed"
+          ],
+          "max_values_per_head": 1,
+          "meaning": "A potential contextual prior, assessed independently from the other Parking L2 dimensions."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Each target has {K} reference Seen nodes retrieved using cosine similarity
+between static semantic embeddings. DATA.reference_ids maps every target
+to its references, ordered by decreasing similarity. DATA.seen is the
+deduplicated reference table shared by this batch.
+Use the target's static attributes and its assigned references' attributes,
+POI counts, and observations to estimate its current state at t.
+Do not choose replacement references.
+Return exactly a JSON object of this form:
+{{"predictions": {{"target_id": 0.0}}}}
+Return every target once, in the stated unit and valid range.

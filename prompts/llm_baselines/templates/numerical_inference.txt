@@ -1,0 +1,7 @@
+Use the full Seen-node context to estimate each target's current state at t.
+You may combine all supplied evidence. The estimate need not be an arithmetic
+average of a selected neighbor subset.
+Return exactly a JSON object of this form:
+{{"predictions": {{"target_id": 0.0}}}}
+Return one finite numerical estimate for every target in the stated unit and
+valid range. The number above only illustrates the output format.

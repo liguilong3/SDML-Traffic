@@ -1,0 +1,1 @@
+Using the target attributes, directly associated POIs, native types, and accepted L1 functions, select up to three FunctionalAreaType values. Explain and cite the evidence for each value, or abstain. Counts do not select labels automatically. Return target_id, labels, label_rationales, label_evidence, and abstention reasons.

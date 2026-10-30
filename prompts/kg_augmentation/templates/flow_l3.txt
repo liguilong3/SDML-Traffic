@@ -1,0 +1,1 @@
+Using actual directed paths, accepted L2 contexts along them, road attributes, and the target position, select one NetworkRole or abstain. Cite paths and the L2 evidence actually used. Reachability, road class, or path length alone is insufficient. Do not infer observed vehicle movements or trips.

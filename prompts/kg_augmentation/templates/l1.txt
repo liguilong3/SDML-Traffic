@@ -1,0 +1,1 @@
+For each supplied native POI type, select one supported Function value or ABSTAIN. Use the native type as the primary evidence and apply the accepted mapping consistently to corresponding POIs. Return scene, native_type, function, and rationale.

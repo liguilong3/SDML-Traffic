@@ -1,0 +1,9 @@
+For each target, select exactly {K} distinct nodes from DATA.seen whose
+current traffic states are expected to be most similar to that target's
+current state. Consider static attributes, spatial context, POI composition,
+and observed dynamics. List selected nodes in decreasing order of expected
+similarity.
+Neighbor IDs must come only from DATA.seen; never select any ID in DATA.targets.
+Return exactly a JSON object of this form:
+{{"neighbors": {{"target_id": ["seen_id_1", "seen_id_2"]}}}}
+Every list must contain exactly {K} IDs; the example is schematic.

@@ -1,0 +1,1 @@
+Using the facility name, supplied source attributes, and directly associated POI semantics, judge potential user group, use orientation, time-of-day orientation, and turnover tendency independently. Return at most one value per dimension, with supporting native types, attribute references, a rationale, or an abstention reason. Opening hours do not establish demand periods.
