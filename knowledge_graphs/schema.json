@@ -28,12 +28,12 @@
         "L3"
       ],
       "factual_relations": {
-        "Forward_rel": [
+        "forward_rel": [
           "Detid",
           "Detid",
           "logical relationship"
         ],
-        "has_Road_lanes": [
+        "has_lane_number": [
           "Detid",
           "Road_Lanes",
           "Has"
@@ -43,12 +43,12 @@
           "OSM_POI_Type",
           "auxiliary classification"
         ],
-        "located_Road_category": [
+        "has_road_grade": [
           "Detid",
           "Road_Category",
           "Has"
         ],
-        "relate_POI": [
+        "nearby_poi": [
           "Detid",
           "POI",
           "Nearby"
@@ -126,7 +126,7 @@
           "Charge_Amount",
           "auxiliary factual field"
         ],
-        "has_nearby_poi": [
+        "nearby_poi": [
           "Parking",
           "POI",
           "Nearby"

@@ -155,7 +155,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_10591704495"
       ]
     },
@@ -169,7 +169,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_10591704498"
       ]
     },
@@ -183,7 +183,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_10591704499"
       ]
     },
@@ -197,7 +197,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_11276779937"
       ]
     },
@@ -211,7 +211,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_11730844148"
       ]
     },
@@ -225,7 +225,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_12086938543"
       ]
     },
@@ -239,7 +239,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_12511892645"
       ]
     },
@@ -253,7 +253,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_12968956235"
       ]
     },
@@ -267,7 +267,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_12968956237"
       ]
     },
@@ -281,7 +281,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_9810960029"
       ]
     },
@@ -295,7 +295,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_9978884006"
       ]
     },
@@ -309,7 +309,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_9978884007"
       ]
     },
@@ -323,7 +323,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_9978884008"
       ]
     },
@@ -337,7 +337,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_node_9978884009"
       ]
     },
@@ -351,7 +351,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_way_1068799340"
       ]
     },
@@ -365,7 +365,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_way_1068799341"
       ]
     },
@@ -379,7 +379,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_way_1068799342"
       ]
     },
@@ -393,7 +393,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_way_1068799343"
       ]
     },
@@ -407,7 +407,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_way_1068799347"
       ]
     },
@@ -421,7 +421,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_way_1068799348"
       ]
     },
@@ -435,7 +435,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_way_185036075"
       ]
     },
@@ -447,7 +447,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       "functions": [],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_way_549702815"
       ]
     },
@@ -461,7 +461,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_way_567801791"
       ]
     },
@@ -475,7 +475,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_way_791242998"
       ]
     },
@@ -489,7 +489,7 @@ Using the facility name, supplied source attributes, and directly associated POI
       ],
       "association_fact": [
         "tdc17p2",
-        "has_nearby_poi",
+        "nearby_poi",
         "poi_way_984424587"
       ]
     }

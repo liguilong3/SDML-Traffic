@@ -84,7 +84,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "-167015105"
       ]
     },
@@ -98,7 +98,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "133393919"
       ]
     },
@@ -112,7 +112,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "1556869864"
       ]
     },
@@ -126,7 +126,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "1997706758"
       ]
     },
@@ -140,7 +140,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "1997739404"
       ]
     },
@@ -154,7 +154,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "438952587"
       ]
     },
@@ -168,7 +168,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "439009318"
       ]
     },
@@ -182,7 +182,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "551096920"
       ]
     },
@@ -196,7 +196,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "551096925"
       ]
     },
@@ -210,7 +210,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "551097831"
       ]
     },
@@ -224,7 +224,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "551097832"
       ]
     },
@@ -238,7 +238,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "878127530"
       ]
     },
@@ -252,7 +252,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "878127531"
       ]
     },
@@ -266,7 +266,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "935560584"
       ]
     },
@@ -280,7 +280,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "935560585"
       ]
     },
@@ -294,7 +294,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "935560586"
       ]
     },
@@ -308,7 +308,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "935560587"
       ]
     },
@@ -322,7 +322,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "935560588"
       ]
     },
@@ -336,7 +336,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "935560589"
       ]
     },
@@ -350,7 +350,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "935560590"
       ]
     },
@@ -364,7 +364,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "935560594"
       ]
     },
@@ -378,7 +378,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "938815094"
       ]
     },
@@ -392,7 +392,7 @@ Using the target attributes, directly associated POIs, native types, and accepte
       ],
       "association_fact": [
         "2498",
-        "relate_POI",
+        "nearby_poi",
         "938815095"
       ]
     }
